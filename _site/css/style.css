@@ -1,0 +1,33 @@
+@base: #000;
+@link: #0044bb;
+@small: 12pt;
+@medium: 16pt;
+@large: 30pt;
+
+body {
+  color: @base;
+  font-size: @medium;
+  font-family: 'PT Serif', 'Times New Roman', serif;
+  margin: 0px;
+}
+
+
+
+.content {
+  padding: 50px;
+}
+
+.graf {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.graf.quote {
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+
+.post--body {
+  margin-top: 10px;
+}
